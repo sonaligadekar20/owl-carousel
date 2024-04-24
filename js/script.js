@@ -1,9 +1,9 @@
 $(".carousel").owlCarousel({
     // option:value
     // merge:true
-    margin:15,
+    margin:17,
     autoplay:true,
-    autoplayTimeout:1000,
+    // autoplayTimeout:1000,
     rewind:false,
     loop:true,
     // stagePadding:100,
@@ -18,7 +18,7 @@ $(".carousel").owlCarousel({
             items:2
         },
         800:{
-            items:4,
+            items:3,
         }
     },
 })

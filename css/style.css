@@ -1,8 +1,9 @@
 .carouse-item{
-    background-color:antiquewhite;
-    color:blueviolet;
-    height: 300px;
-
+    /* background-color:antiquewhite; */
+    color:#020101;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* height: 300px; */
 
 }
 .carousel .owl-next,
@@ -11,7 +12,34 @@
     color:gold !important;
     height: 30px;
     width: 40px;
-}
-.carousel .owl-nav{
     position: absolute;
+    top: 50%;
+}
+.carousel{
+    margin-top: 100px;
+}
+.carousel .owl-next{
+    right: -5px;
+}
+.carousel .owl-prev{
+    left: -5px;
+}
+/* .carouse-text{
+    text-align: center;
+
+} */
+
+.carouse-btn{
+    background-color: #143B64;
+    color:#ffffff;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    padding: 10px 17px;
+    border-radius: 2.5px;
+    font-family:sans-serif;
+}
+.carouse-btn:hover{
+    background-color:gold;
 }
