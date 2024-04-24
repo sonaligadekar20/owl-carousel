@@ -1,0 +1,17 @@
+.carouse-item{
+    background-color:antiquewhite;
+    color:blueviolet;
+    height: 300px;
+
+
+}
+.carousel .owl-next,
+.carousel .owl-prev{
+    background-color:rgb(26, 26, 101) !important;
+    color:gold !important;
+    height: 30px;
+    width: 40px;
+}
+.carousel .owl-nav{
+    position: absolute;
+}
