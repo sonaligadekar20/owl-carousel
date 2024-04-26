@@ -9,20 +9,23 @@
 .carousel .owl-next,
 .carousel .owl-prev{
     background-color:rgb(26, 26, 101) !important;
-    color:gold !important;
+    color:gold!important;
     height: 30px;
     width: 40px;
     position: absolute;
     top: 50%;
 }
+
 .carousel{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .carousel .owl-next{
     right: -5px;
+    margin-left: 150px;
 }
 .carousel .owl-prev{
     left: -5px;
+    margin-right: 150px;
 }
 /* .carouse-text{
     text-align: center;
@@ -39,7 +42,11 @@
     padding: 10px 17px;
     border-radius: 2.5px;
     font-family:sans-serif;
+    text-decoration: none;
+    display: table;
+    margin: 0 auto;
+
 }
 .carouse-btn:hover{
-    background-color:gold;
+    background-color:#FFC317;
 }

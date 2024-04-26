@@ -1,7 +1,7 @@
 $(".carousel").owlCarousel({
     // option:value
     // merge:true
-    margin:17,
+    margin:18,
     autoplay:true,
     // autoplayTimeout:1000,
     rewind:false,
